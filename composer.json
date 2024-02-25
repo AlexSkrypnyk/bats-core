@@ -1,0 +1,31 @@
+{
+    "name": "bats/bats",
+    "description": "Bash Automated Testing System",
+    "type": "library",
+    "homepage": "https://github.com/bats-core/bats-core#readme",
+    "keywords": [
+        "bats",
+        "bash",
+        "shell",
+        "test",
+        "unit"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sam Stephenson",
+            "email": "sstephenson@gmail.com",
+            "homepage": "http://sstephenson.us/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/bats-core/bats-core/issues",
+        "source": "https://github.com/bats-core/bats-core"
+    },
+    "scripts": {
+        "test": "bin/bats test"
+    },
+    "bin": [
+        "bin/bats"
+    ]
+}
